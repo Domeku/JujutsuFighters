@@ -21,5 +21,12 @@ namespace JujutsuFighters
         {
 
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            CharacterSelect characterSelect = new CharacterSelect();
+            characterSelect.Show();
+            this.Hide();
+        }
     }
 }
