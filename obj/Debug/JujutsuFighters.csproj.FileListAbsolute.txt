@@ -9,3 +9,4 @@ C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.c
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.exe
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.pdb
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.exe.config
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.CharacterSelect.resources

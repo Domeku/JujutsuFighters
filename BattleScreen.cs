@@ -12,9 +12,13 @@ namespace JujutsuFighters
 {
     public partial class BattleScreen : Form
     {
-        public BattleScreen()
+        private string playerCharacter;
+        private string enemyCharacter;
+        public BattleScreen(string player, string enemy)
         {
             InitializeComponent();
+            playerCharacter = player;
+            enemyCharacter = enemy;
         }
     }
 }

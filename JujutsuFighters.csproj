@@ -72,6 +72,9 @@
     <Compile Include="ResultScreen.Designer.cs">
       <DependentUpon>ResultScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CharacterSelect.resx">
+      <DependentUpon>CharacterSelect.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -100,6 +103,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters\Gojo\Gojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters\Itadori\Itadori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters\Maki\Maki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters\Sukuna\Sukuna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BANNERR.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
