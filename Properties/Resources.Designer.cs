@@ -83,6 +83,16 @@ namespace JujutsuFighters.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Battleground {
+            get {
+                object obj = ResourceManager.GetObject("Battleground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gojo {
             get {
                 object obj = ResourceManager.GetObject("Gojo", resourceCulture);

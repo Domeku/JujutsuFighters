@@ -72,6 +72,9 @@
     <Compile Include="ResultScreen.Designer.cs">
       <DependentUpon>ResultScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BattleScreen.resx">
+      <DependentUpon>BattleScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CharacterSelect.resx">
       <DependentUpon>CharacterSelect.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\BANNERR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Battleground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
