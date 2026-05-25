@@ -108,7 +108,18 @@
     <None Include="Images\Banner.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Characters\Gojo\Gojo.jpg" />
+    <Content Include="Characters\Gojo\Attack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Gojo\Damage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Gojo\Gojo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Gojo\Standing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Characters\Itadori\Itadori.jpg" />
@@ -124,6 +135,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Battleground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Characters\Itadori\Attack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Itadori\Damage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Itadori\Standing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Maki\Attack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Maki\Damage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Maki\Standing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Sukuna\Attack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Sukuna\Damage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Characters\Sukuna\Standing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

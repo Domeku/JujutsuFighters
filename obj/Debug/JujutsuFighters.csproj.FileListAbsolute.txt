@@ -11,3 +11,16 @@ C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.p
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.exe.config
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.CharacterSelect.resources
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.BattleScreen.resources
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Gojo.jpg
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Itadori\Attack.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Itadori\Damage.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Itadori\Standing.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Maki\Attack.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Maki\Damage.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Maki\Standing.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Sukuna\Attack.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Sukuna\Damage.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Sukuna\Standing.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Attack.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Damage.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Standing.png

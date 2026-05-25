@@ -79,7 +79,8 @@
             // 
             // pbPlayer
             // 
-            this.pbPlayer.BackColor = System.Drawing.Color.White;
+            this.pbPlayer.BackColor = System.Drawing.Color.Transparent;
+            this.pbPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPlayer.Location = new System.Drawing.Point(18, 135);
             this.pbPlayer.Name = "pbPlayer";
             this.pbPlayer.Size = new System.Drawing.Size(300, 350);
@@ -123,7 +124,8 @@
             // 
             // pbEnemy
             // 
-            this.pbEnemy.BackColor = System.Drawing.Color.Red;
+            this.pbEnemy.BackColor = System.Drawing.Color.Transparent;
+            this.pbEnemy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbEnemy.Location = new System.Drawing.Point(929, 135);
             this.pbEnemy.Name = "pbEnemy";
             this.pbEnemy.Size = new System.Drawing.Size(300, 350);
@@ -169,6 +171,7 @@
             this.btnStart.TabIndex = 10;
             this.btnStart.Text = "INICIAR BATALLA";
             this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // BattleScreen
             // 
@@ -194,6 +197,7 @@
             this.Name = "BattleScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JujutsuFighters - Batalla";
+            this.Load += new System.EventHandler(this.BattleScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEnemy)).EndInit();
             this.ResumeLayout(false);
