@@ -154,6 +154,13 @@ namespace JujutsuFighters
         }
 
         // ─── Procesar un ataque ───────────────────────────────────
+        private double GetDodgeChance(string character)
+        {
+            if (character == "Gojo" || character == "Sukuna")
+                return 0.25;
+            else
+                return 0.20;
+        }
         private async Task ProcessAttack(bool isPlayer)
         {
             string attacker = isPlayer ? playerCharacter : enemyCharacter;
@@ -177,14 +184,14 @@ namespace JujutsuFighters
             if (isCrit) damage *= 2;
 
             // ── Esquivo del defensor ──
-            double dodge = isPlayer ? dodgeChance : dodgeChance;
+            double dodge = isPlayer ? GetDodgeChance(playerCharacter) : GetDodgeChance(enemyCharacter);
             if (rand.NextDouble() < dodge)
             {
                 Log("🌀 " + defender + " esquivó el ataque de " + attacker + "!", Color.Cyan);
                 if (isPlayer) LoadSprite(pbEnemy, enemyCharacter, "Attack", true);
-                else LoadSprite(pbPlayer, playerCharacter, "Attack", true);
+                else LoadSprite(pbPlayer, playerCharacter, "Attack", false);
                 await Task.Delay(400);
-                LoadSprite(pbPlayer, playerCharacter, "Standing", true);
+                LoadSprite(pbPlayer, playerCharacter, "Standing", false);
                 LoadSprite(pbEnemy, enemyCharacter, "Standing", true);
                 return;
             }
@@ -196,7 +203,7 @@ namespace JujutsuFighters
                 enemyHP -= damage;
 
                 // Sprites
-                LoadSprite(pbPlayer, playerCharacter, "Attack");
+                LoadSprite(pbPlayer, playerCharacter, "Attack", false);
                 LoadSprite(pbEnemy, enemyCharacter, "Damage", true);
                 await Task.Delay(400);
                 LoadSprite(pbPlayer, playerCharacter, "Standing", false);
@@ -223,7 +230,7 @@ namespace JujutsuFighters
 
                 // Sprites
                 LoadSprite(pbEnemy, enemyCharacter, "Attack", true);
-                LoadSprite(pbPlayer, playerCharacter, "Damage");
+                LoadSprite(pbPlayer, playerCharacter, "Damage", false);
                 await Task.Delay(400);
                 LoadSprite(pbEnemy, enemyCharacter, "Standing", true);
 

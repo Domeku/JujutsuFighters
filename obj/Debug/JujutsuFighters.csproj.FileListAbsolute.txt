@@ -24,3 +24,4 @@ C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Sukuna
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Attack.png
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Damage.png
 C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\bin\Debug\Characters\Gojo\Standing.png
+C:\Users\Damian\Desktop\JujutsuFight\JujutsuFighters\obj\Debug\JujutsuFighters.ResultScreen.resources

@@ -88,6 +88,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ResultScreen.resx">
+      <DependentUpon>ResultScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +123,7 @@
     <Content Include="Characters\Gojo\Standing.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Images\ResumenBanner.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Characters\Itadori\Itadori.jpg" />
